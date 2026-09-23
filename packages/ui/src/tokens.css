@@ -1,0 +1,60 @@
+/* Atende OS — tokens v2 (02_DESIGN_SYSTEM_ATENDE_OS.md §8–11, §26) */
+:root {
+  --background: #f7f7f5;
+  --surface: #ffffff;
+  --surface-subtle: #f2f2ef;
+  --border: #e5e5e1;
+  --border-strong: #d4d4cf;
+  --text-primary: #171717;
+  --text-secondary: #666666;
+  --text-tertiary: #8a8a8a;
+  --text-disabled: #a8a8a8;
+  --accent: #2563eb;
+  --accent-hover: #1d4ed8;
+  --accent-soft: #eff6ff;
+  --success: #16a34a;
+  --success-soft: #ecfdf3;
+  --warning: #b45309;
+  --warning-soft: #fef6e7;
+  --danger: #dc2626;
+  --danger-soft: #fef1f1;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 10px;
+  --radius-xl: 12px;
+
+  --motion-fast: 100ms;
+  --motion-normal: 160ms;
+  --motion-slow: 220ms;
+
+  --sidebar-width: 224px;
+  --topbar-height: 52px;
+}
+
+[data-theme="dark"] {
+  --background: #101010;
+  --surface: #161616;
+  --surface-subtle: #1c1c1c;
+  --border: #292929;
+  --border-strong: #383838;
+  --text-primary: #f5f5f5;
+  --text-secondary: #a3a3a3;
+  --text-tertiary: #737373;
+  --text-disabled: #525252;
+  --accent: #5b8cff;
+  --accent-hover: #78a1ff;
+  --accent-soft: #17213a;
+  --success-soft: #0f2a1a;
+  --warning-soft: #2e2111;
+  --danger-soft: #2e1414;
+}

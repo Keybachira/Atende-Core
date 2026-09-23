@@ -1,0 +1,10 @@
+{
+  "name": "@atende/desktop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "echo \"desktop: reservado (Tauri/Electron na Fase 7+)\"",
+    "build": "echo \"desktop: reservado\"",
+    "lint": "echo \"desktop: reservado\""
+  }
+}
